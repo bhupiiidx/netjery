@@ -460,6 +460,10 @@
   .section5-2 {
     padding: 10px 0;
   }
+  .header1Div1 {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 @media only screen and (min-width: 600px) {
   .section2-side1 {
