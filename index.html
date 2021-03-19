@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment - Netzary</title>
+    <!-- BOOTSTRAP CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- BOOTSTRAP CDN -->
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- fonts -->
+
+    <!-- local CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- local CSS -->
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Font Awwesome CDN -->
+
+</head>
+
+<body>
+    <header class="header1">
+        <div class="header1Div1">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-pinterest-square"></i></a>
+        </div>
+        <div class="header1Div2">
+            <p><strong>FREE SHIPPING</strong> wide for all order over Rs. 3000</p>
+        </div>
+        <div class="header1Div3">
+            <a href="#">Track Order</a>
+        </div>
+    </header>
+    <header class="header2">
+        <div class="container-fluid">
+            <div class="row d-flex justify-content-around">
+                <div class="col-lg-2 col-md-3">
+                    <a class="navbar-brand" href="#">
+                        <img src="https://picsum.photos/200/300" width="30" height="30" class="d-inline-block align-top"
+                            alt="">
+                        Hevmor
+                    </a>
+                </div>
+                <div class="col-lg-7 col-md-6 padding-small-mobile">
+                    <div class="header-search">
+                        <div class="search-form">
+                            <form method="get">
+                                <div class="input-group">
+                                    <div class="select-style">
+                                        <select name="order">
+                                            <option class="topshow" value="1">All Category</option>
+                                            <option value="a">Beer</option>
+                                            <option value="b">Wine</option>
+                                            <option value="c">Liquor</option>
+                                            <option value="d">Cider</option>
+                                            <option value="e">Mead</option>
+                                            <option value="f">Others</option>
+                                        </select>
+                                    </div>
+                                    <input type="text" name="search" id="search" class="form-control"
+                                        placeholder="Search Products" />
+                                    <div class="input-group-addon">
+                                        <button type="submit"><i class="fas fa-search"></i></button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 last-data">
+                    <a href="#"><i class="far fa-user"></i></a>
+                    <a href="#">Login</a>
+                    <a class="btn-badge" href="#">
+                        <span>
+                            <i class="far fa-heart main-badge"></i>
+                        </span>
+                        <span class="noti-badge">4</span>
+                    </a>
+                    <a class="btn-badge" href="#">
+                        <span>
+                            <i class="fas fa-cart-plus main-badge"></i>
+                        </span>
+                        <span class="noti-badge">8</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <header class="header3">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class=" navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Phone By Brands</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Mobile & Computers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Tv & Audio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">New Launches</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Accessories</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Deals</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <header class="header4">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Login</li>
+            </ol>
+        </nav>
+    </header>
+    <main>
+        <section class="section1">
+            CUSTOMER <span>LOGIN</span>
+        </section>
+        <section class="section2">
+            <div class="section2-account">
+                <div class="section2-side1">
+                    <h4>
+                        SIGN IN
+                    </h4>
+                    <p>Get access to your older, Wishlist and Recommendatons</p>
+                    <form>
+                        <div class="iinput-design">
+                            <label for="email">Email</label><br />
+                            <input type="email" name="email" id="email" placeholder="Enter Email/Mobile Number">
+                        </div>
+                        <div class="iinput-design">
+                            <label for="password">Password</label><br />
+                            <input type="password" name="password" id="password"
+                                placeholder="Enter Email/Mobile Number">
+                            <button onclick="handlechange()">
+                                <i id="tog-icon-pwd1" class="far fa-eye"></i>
+                                <i id="tog-icon-pwd2" class="far fa-eye-slash"></i>
+                            </button>
+                        </div>
+                        <div class="account-related">
+                            <button class="btn btn-danger" type="submit">Sign In</button>
+                            <a href="#">ForgotYour password ?</a>
+                        </div>
+                    </form>
+                    <div class="acc-2-media">
+                        <button class="btn btn-primary"><i class="fab fa-facebook-f"></i></button>
+                        <button class="btn btn-danger"><i class="fab fa-google-plus-g"></i></button>
+                    </div>
+                </div>
+                <div class="section2-side2">
+                    <h4>
+                        CREATE YOUR ACCOUNT
+                    </h4>
+                    <p>
+                        Creating an account has many benfits: checkout faster, keep more than one address, track orders
+                        and more
+                    </p>
+                    <form>
+                        <div class="iinput-design">
+                            <label for="firstname">Name</label><br />
+                            <input type="firstname" name="firstname" id="firstname" placeholder="Enter Your name">
+                        </div>
+                        <div class="iinput-design">
+                            <label for="phonenumb">Phone Number</label><br />
+                            <input type="phonenumb" name="phonenumb" id="phonenumb" placeholder="Enter Phone Number">
+                        </div>
+                        <div class="iinput-design">
+                            <label for="email1">Email</label><br />
+                            <input type="email" name="email" id="email1" placeholder="Enter Email/Mobile Number">
+                        </div>
+                        <div class="iinput-design">
+                            <label for="password">Password</label><br />
+                            <input type="password" name="password" id="password1" placeholder="Enter Password">
+                            <button onclick="handlechange1()">
+                                <i id="tog-icon-pwd3" class="far fa-eye"></i>
+                                <i id="tog-icon-pwd4" class="far fa-eye-slash"></i>
+                            </button>
+                        </div>
+                        <div class="iinput-design">
+                            <label for="password">Confirm Password</label><br />
+                            <input type="password" name="password" id="password2" placeholder="Enter Password">
+                            <button onclick="handlechange2()">
+                                <i id="tog-icon-pwd5" class="far fa-eye"></i>
+                                <i id="tog-icon-pwd6" class="far fa-eye-slash"></i>
+                            </button>
+                        </div>
+                        <div class="account-related">
+                            <button class="btn btn-danger" type="submit">Create Your Account</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="section2-position-or-left">
+                <div>
+                    <span>or</span>
+                </div>
+            </div>
+        </section>
+        <section class="section349">
+            <div class="section349-left">
+                <h4>
+                    Our Newsletter
+                </h4>
+                <p>
+                    Get updates to lastes mobile phone models, offer & discounts
+                </p>
+            </div>
+            <div class="section349-right">
+                <div style="width: 100%;">
+                    <button class="btn-left-joint"><i class="far fa-envelope-open"></i></button>
+                    <input class="subs-inp" type="email" placeholder="Enter Your Email Address">
+                    <button class="btn-right-joint">Subscribe</button>
+                </div>
+            </div>
+        </section>
+        <section class="section4">
+            <div class="sectio4-first">
+                <h5>QUICK SHOP</h5>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="#">Mobile</a>
+                        </li>
+                        <li>
+                            <a href="#">Gadgets</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="#">Tablets</a>
+                        </li>
+                        <li>
+                            <a href="#">Tv</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sectio4-medium">
+                <h5>USEFUL LINKS</h5>
+                <ul>
+                    <li>
+                        <a href="#">My Accounts</a>
+                    </li>
+                    <li>
+                        <a href="#">My Wishlist</a>
+                    </li>
+                    <li>
+                        <a href="#">Terms And Condition</a>
+                    </li>
+                    <li>
+                        <a href="#">Privacy And Policy</a>
+                    </li>
+                    <li>
+                        <a href="#">About US</a>
+                    </li>
+                    <li>
+                        <a href="#">Reurn/Exchange</a>
+                    </li>
+                    <li>
+                        <a href="#">FAQs</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sectio4-last">
+                <h5>CONTACT US</h5>
+                <ul>
+                    <li>
+                        <a href="#"><i class="fas fa-phone-alt"></i>Got a question? Call us 24/7</a>
+                    </li>
+                    <li class="more-larger">
+                        <a href="#">+9876543210</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-telegram-plane"></i>Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Voluptas, amet!</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="far fa-envelope-open"></i>abc123@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section5">
+            <div class="section5-1">
+                Copyright &copy; 2021 Hevmor
+            </div>
+            <div class="section5-2">
+                <div class="header1Div1">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-square"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- bootstrap js cdn-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- bootstrap js cdn -->
+
+    <!-- written script -->
+    <script>
+        var x = document.getElementById("tog-icon-pwd1");
+        var y = document.getElementById("tog-icon-pwd2");
+        var z = document.getElementById("password");
+        y.style.display = "none";
+        function handlechange() {
+            event.preventDefault();
+            if (x.style.display === "none") {
+                x.style.display = "block";
+                y.style.display = "none";
+                z.type = "text"
+            } else {
+                x.style.display = "none";
+                y.style.display = "block";
+                z.type = "password"
+            }
+        }
+        var a = document.getElementById("tog-icon-pwd3");
+        var b = document.getElementById("tog-icon-pwd4");
+        var c = document.getElementById("password1");
+        b.style.display = "none";
+        function handlechange1() {
+            event.preventDefault();
+            if (a.style.display === "none") {
+                a.style.display = "block";
+                b.style.display = "none";
+                c.type = "text"
+            } else {
+                a.style.display = "none";
+                b.style.display = "block";
+                c.type = "password"
+            }
+        }
+        var d = document.getElementById("tog-icon-pwd5");
+        var g = document.getElementById("tog-icon-pwd6");
+        var h = document.getElementById("password2");
+        g.style.display = "none";
+        function handlechange2() {
+            event.preventDefault();
+            if (d.style.display === "none") {
+                d.style.display = "block";
+                g.style.display = "none";
+                h.type = "text"
+            } else {
+                d.style.display = "none";
+                g.style.display = "block";
+                h.type = "password"
+            }
+        }
+
+    </script>
+</body>
+
+</html>
